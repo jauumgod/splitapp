@@ -28,7 +28,7 @@ class App(ctk.CTk):
 
         self.run_button = ctk.CTkButton(self, text="Executar Separação", command=self.executar_em_thread)
         self.run_button.pack(pady=10)
-
+ 
         self.progress = ctk.CTkProgressBar(self, width=400)
         self.progress.set(0)
         self.progress.pack(pady=10)
