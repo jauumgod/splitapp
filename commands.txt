@@ -1,0 +1,6 @@
+
+
+
+HOW DO CREATE A EXE FILE
+
+pyinstaller --noconfirm --onefile --windowed --add-data "keywords.txt;." --name "SeparadorPDF" run.py
